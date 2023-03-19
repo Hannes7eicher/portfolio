@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns:  repeat(1);
+    grid-template-rows: repeat(1);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    text-align: left;
+  }
+
+  @media (min-width: 600px) {
+    .grid-container {
+        grid-gap: 2rem;
+        grid-template-columns:  repeat(3);
+        grid-template-rows: repeat(3);
+      }
+  }
+
+  .container {
+    justify-items: center;
+    text-align:center
+  }

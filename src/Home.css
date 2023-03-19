@@ -1,0 +1,37 @@
+body {
+    overflow-x: hidden;
+}
+
+@keyframes moveGradient {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+  .animate-gradient {
+    animation: moveGradient 30s ease-in-out infinite alternate;
+  }
+  
+
+  @keyframes pulse {
+    0%, 100%{
+      opacity: .1;
+      transform: scale(1);
+
+    }
+    25% {
+      opacity: .2;
+      transform: scale(1.1);
+    }
+    50% {
+      opacity: .4;
+      transform: scale(1.1);
+    }
+    75% {
+      opacity: .5;
+      transform: scale(1.1);
+    }
+  }
