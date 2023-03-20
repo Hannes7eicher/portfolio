@@ -1,11 +1,37 @@
-#body {
-background-color:#be99ff;
-background-image:
-radial-gradient(at 17% 48%, hsla(268,70%,71%,1) 0px, transparent 50%),
-radial-gradient(at 5% 27%, hsla(39,93%,68%,1) 0px, transparent 50%),
-radial-gradient(at 72% 54%, hsla(239,68%,64%,1) 0px, transparent 50%),
-radial-gradient(at 57% 18%, hsla(226,83%,78%,1) 0px, transparent 50%),
-radial-gradient(at 94% 76%, hsla(106,64%,65%,1) 0px, transparent 50%),
-radial-gradient(at 52% 29%, hsla(107,70%,73%,1) 0px, transparent 50%),
-radial-gradient(at 38% 51%, hsla(252,96%,78%,1) 0px, transparent 50%);
+body {
+    overflow-x: hidden;
 }
+
+@keyframes moveGradient {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+  .animate-gradient {
+    animation: moveGradient 30s ease-in-out infinite alternate;
+  }
+  
+
+  @keyframes pulse {
+    0%, 100%{
+      opacity: .1;
+      transform: scale(1);
+
+    }
+    25% {
+      opacity: .2;
+      transform: scale(1.1);
+    }
+    50% {
+      opacity: .4;
+      transform: scale(1.1);
+    }
+    75% {
+      opacity: .5;
+      transform: scale(1.1);
+    }
+  }
