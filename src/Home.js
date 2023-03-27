@@ -1,21 +1,10 @@
 /* Import stuff */
 import Section from './Section';
 import './Home.css';
-import  {motion} from 'framer-motion';
 
 export default function Home() {
     return(
       <main>
-          <motion.div
-      className="box"
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{
-        duration: 0.8,
-        delay: 0.5,
-        ease: [0, 0.71, 0.2, 1.01]
-      }}
-    />
         <div id="body" className='bg-white'>
           <div className='absolute h-screen w-full blur-3xl'>
             <svg className="absolute sm:animate-spin h-full w-full">
