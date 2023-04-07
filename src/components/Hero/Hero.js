@@ -1,8 +1,7 @@
 /* Import stuff */
-import Section from './Section';
-import './Home.css';
+import Section from '../Section/Section'
 
-export default function Home() {
+export default function Hero() {
     return(
       <main>
         <div id="body" className='bg-white'>

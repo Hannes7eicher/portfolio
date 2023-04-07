@@ -1,16 +1,23 @@
 import  {motion} from 'framer-motion';
 import { useState } from 'react';
-import ProjectContent from './ProjectContent';
+import Modal from '../Modal/Modal';
 
 export default function Card({image, title, subtitle}) {
 
-    const src = require("./assets/" + image);
-    const [isOpen, setisOpen] = useState(true);
+    const src = require("../assets/" + image);
+
+    const[modalOpen, setModalOpen] = useState(false);
+
+    const close = () => setModalOpen(false);
+    const open = () => setModalOpen(true);
     
     return (
 <motion.div
   className="cursor-pointer card" 
-  onClick={() => setisOpen(!isOpen)}>
+  whileHover={{ scale: 1.05}}
+  whileTap={{ scale: 0.99}}
+  onClick={() => (modalOpen ? close() : open() )}
+  >
 
   <motion.div>
     <motion.h1 class="text-xl lg:text-4xl font-bold leading-none tracking-tight text-gray-700"> {title} </motion.h1>
@@ -20,6 +27,8 @@ export default function Card({image, title, subtitle}) {
   <motion.div>
    <motion.img className="sm:h-96 shadow-2xl"  src={src} />
   </motion.div>
+
+  {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
 
 </motion.div>
     );
