@@ -1,13 +1,18 @@
 import React from 'react';
-import Hero from './components/Hero/Hero'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from './components/Main/Main'
+import Project from './components/Project/Project';
 import './App.css'
 
 function App() {
 
   return (
-    <div className='body'>
-      <Hero />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element = { <Main/> } />
+        <Route path="Project" element = { <Project/> } />
+    </Routes>
+    </BrowserRouter>
   );
 }
 

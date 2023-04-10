@@ -1,22 +1,17 @@
 import  {motion} from 'framer-motion';
-import { useState } from 'react';
-import Modal from '../Modal/Modal';
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 
 export default function Card({image, title, subtitle}) {
 
     const src = require("../assets/" + image);
-
-    const[modalOpen, setModalOpen] = useState(false);
-
-    const close = () => setModalOpen(false);
-    const open = () => setModalOpen(true);
+    const navigate = useNavigate();
     
     return (
 <motion.div
   className="cursor-pointer card" 
   whileHover={{ scale: 1.05}}
   whileTap={{ scale: 0.99}}
-  onClick={() => (modalOpen ? close() : open() )}
+  onClick = {() => navigate('/Project')}  
   >
 
   <motion.div>
@@ -28,10 +23,9 @@ export default function Card({image, title, subtitle}) {
    <motion.img className="sm:h-96 shadow-2xl"  src={src} />
   </motion.div>
 
-  {modalOpen && <Modal modalOpen={modalOpen} handleClose={close} />}
+
+
 
 </motion.div>
     );
 }
-
-
