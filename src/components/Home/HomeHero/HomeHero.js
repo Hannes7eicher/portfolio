@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Hero() {
+export default function HomeHero() {
   return (
     <div id="body">
       <div className='absolute h-screen w-full blur-3xl'>

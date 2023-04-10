@@ -1,9 +1,9 @@
 import  {motion} from 'framer-motion';
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 
-export default function Card({image, title, subtitle}) {
+export default function HomeCard({image, title, subtitle}) {
 
-    const src = require("../assets/" + image);
+    const src = require("../../assets/" + image);
     const navigate = useNavigate();
     
     return (

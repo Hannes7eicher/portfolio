@@ -1,12 +1,12 @@
 /* Import stuff */
-import Hero from '../Hero/Hero';
-import Section from '../Section/Section'
+import HomeHero from '../Home/HomeHero/HomeHero';
+import HomeSection from '../Home/HomeSection/HomeSection';
 
 export default function Main() {
     return(
     <main className='bg-white'>
-      <Hero />
-      <Section />
+      <HomeHero />
+      <HomeSection />
     </main>
   );
 }

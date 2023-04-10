@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://hannes7eicher.github.io/portfolio",
+  "homepage": "https://hannes7eicher.github.io/portfolio/#/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.13",
