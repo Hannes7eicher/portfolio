@@ -1,7 +1,8 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Main from './components/Main/Main';
-import Project from './components/Project/Project';
+import PlantKit from './components/Project/PlantKit/PlantKit';
+import EnergyMeter from './components/Project/EnergyMeter/EnergyMeter';
 
 function App() {
 
@@ -9,11 +10,11 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element = { <Main/> } />
-        <Route path="Project" element = { <Project/> } />
+        <Route path="PlantKit" element = { <PlantKit/> } />
+        <Route path="EnergyMeter" element = { <EnergyMeter/> } />
     </Routes>
     </HashRouter>
   );
 }
 
 export default App;
-  

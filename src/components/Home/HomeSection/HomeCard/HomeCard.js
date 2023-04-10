@@ -1,7 +1,7 @@
 import  {motion} from 'framer-motion';
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-export default function HomeCard({image, title, subtitle}) {
+export default function HomeCard({image, title, subtitle, route}) {
 
     const src = require("../../assets/" + image);
     const navigate = useNavigate();
@@ -11,7 +11,7 @@ export default function HomeCard({image, title, subtitle}) {
   className="cursor-pointer card" 
   whileHover={{ scale: 1.05}}
   whileTap={{ scale: 0.99}}
-  onClick = {() => navigate('/Project')}  
+  onClick = {() => navigate(route)}  
   >
 
   <motion.div>

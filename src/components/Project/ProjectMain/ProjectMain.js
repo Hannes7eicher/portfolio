@@ -1,7 +1,7 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-export default function Project() {
+export default function ProjectMain({title, subtitle}) {
 
     const navigate = useNavigate();
 
@@ -10,8 +10,8 @@ export default function Project() {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-              <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+              <h1 className="mb-5 text-5xl font-bold">{title}</h1>
+              <p className="mb-5">{subtitle}</p>
               <button onClick = {() => navigate('/')}   className="btn btn-primary">Go Back</button>
             </div>
           </div>
