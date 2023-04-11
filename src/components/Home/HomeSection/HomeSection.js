@@ -11,7 +11,7 @@ export default function HomeSection() {
           />
           <HomeCard 
           title="Arduino IoT Energy Meter" 
-          subtitle="Become more aware of consumption by monitoring your energy meter with an Arduino." 
+          subtitle="Become more aware of consumption by monitoring your energy." 
           image="energyMeter.png" 
           route="/EnergyMeter"
           />
