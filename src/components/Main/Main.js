@@ -8,9 +8,9 @@ export default function Main() {
     return(
     <motion.main 
     className='bg-white'
-    initial = {{ opacity: 0 }}
-    animate = {{ opacity: 1 }}
-    exit = {{ opacity: 0 }}
+    initial = {{  }}
+    animate = {{  }}
+    exit = {{  }}
     >
       <HomeHero />
       <HomeSection />
