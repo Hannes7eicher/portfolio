@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'RobotoCondensed': ['Roboto Condensed', 'sans-serif'],
+      },
       animation: {
         pulse: 'pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         spin: 'spin 50s linear infinite',

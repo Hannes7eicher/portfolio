@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function HomeHero() {
   return (
     <div id="body">
@@ -11,8 +12,8 @@ export default function HomeHero() {
         </div>
         <div>
           <div className="mx-auto max-w-2xl py-32 sm:py-64">
-              <h1 className="relative text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center sm:text-center">Hannes Siebeneicher</h1>
-              <p className="relative py-8 text-lg leading-8 text-gray-600 text-center sm:text-center">
+              <h1 className="relative text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center font-PlayfairDisplay sm:text-center">Hannes Siebeneicher</h1>
+              <p className="relative py-8 text-lg leading-8 text-gray-600 text-center font-RobotoCondensed sm:text-center">
             crafting interactions
           </p>
             </div>
