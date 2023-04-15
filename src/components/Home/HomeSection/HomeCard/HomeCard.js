@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function HomeCard({image, title, subtitle, route}) {
 
-    const src = require("../../assets/" + image);
+    const src = require("../../../assets/" + image);
     const navigate = useNavigate();
     
     return (
