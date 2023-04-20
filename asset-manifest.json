@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1d3154f4.css",
-    "main.js": "/portfolio/static/js/main.de1266f4.js",
+    "main.css": "/portfolio/static/css/main.f192d2b0.css",
+    "main.js": "/portfolio/static/js/main.5bc19bf1.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/plantKit.png": "/portfolio/static/media/plantKit.f385cd726e13a067f0e4.png",
     "static/media/energyMeter.png": "/portfolio/static/media/energyMeter.7bb64c42aebebf7bd6fc.png",
+    "static/media/OlfactoryHero.png": "/portfolio/static/media/OlfactoryHero.d0d10e79969f795cf5eb.png",
+    "static/media/CriticalDesign.png": "/portfolio/static/media/CriticalDesign.e7f4415848ab56e112f1.png",
     "index.html": "/portfolio/index.html",
-    "main.1d3154f4.css.map": "/portfolio/static/css/main.1d3154f4.css.map",
-    "main.de1266f4.js.map": "/portfolio/static/js/main.de1266f4.js.map",
+    "main.f192d2b0.css.map": "/portfolio/static/css/main.f192d2b0.css.map",
+    "main.5bc19bf1.js.map": "/portfolio/static/js/main.5bc19bf1.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d3154f4.css",
-    "static/js/main.de1266f4.js"
+    "static/css/main.f192d2b0.css",
+    "static/js/main.5bc19bf1.js"
   ]
 }
