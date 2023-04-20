@@ -15,7 +15,18 @@ export default function HomeSection() {
           image="energyMeter.png" 
           route="/EnergyMeter"
           />
-
+          <HomeCard 
+          title="Olfactory Display"
+          subtitle="Exploring olfactory interaction in virtual environments" 
+          image="OlfactoryHero.png" 
+          route="/OlfactoryDisplay"
+          />
+          <HomeCard 
+          title="CriticalDesign"
+          subtitle="A critical design concept evoking angry emotions" 
+          image="CriticalDesign.png" 
+          route="/CriticalDesign"
+          />
       </div>
     );
 }

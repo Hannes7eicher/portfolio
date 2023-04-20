@@ -1,5 +1,5 @@
 import {React } from 'react'
-import ProjectMain from '../ProjectMain/ProjectMain';
+import ProjectMain from '../../ProjectMain/ProjectMain';
 import { motion } from "framer-motion";
 
 export default function PlantKit() {

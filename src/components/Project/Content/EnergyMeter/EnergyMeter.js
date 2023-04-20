@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectMain from '../ProjectMain/ProjectMain';
+import ProjectMain from '../../ProjectMain/ProjectMain';
 
 export default function EnergyMeter() {
   return (
