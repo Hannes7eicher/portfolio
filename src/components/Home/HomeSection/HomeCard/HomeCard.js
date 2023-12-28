@@ -15,8 +15,8 @@ export default function HomeCard({image, title, subtitle, route}) {
   >
 
   <motion.div>
-    <motion.h1 class="text-xl lg:text-4xl font-bold leading-none tracking-tight text-gray-700"> {title} </motion.h1>
-    <motion.p class="my-4 text-lg text-gray-500"> {subtitle} </motion.p>
+    <motion.h1 className="text-xl lg:text-4xl font-bold leading-none tracking-tight text-gray-700"> {title} </motion.h1>
+    <motion.p className="my-4 text-lg text-gray-500"> {subtitle} </motion.p>
   </motion.div>
 
   <motion.div>
